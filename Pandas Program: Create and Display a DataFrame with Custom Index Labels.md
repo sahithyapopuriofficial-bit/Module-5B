@@ -9,7 +9,7 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ## 🧠 Algorithm
 
 1. **Import Libraries**: Import the required libraries – `pandas` and `numpy`.
-2. **Create Dictionary**: Define a dictionary `exam_data` with keys: `'name'`, `'score'`, `'attempts'`, and `'qualify'`.
+2. **Create Dictionary**: Define a dictionary `my_dict` with keys.
 3. **Index Labels**: Create a list of custom index labels called `labels`.
 4. **Create DataFrame**: Use `pd.DataFrame()` to create the DataFrame by passing the dictionary and index labels.
 5. **Display Output**: Display the DataFrame using `print()` or by simply calling the DataFrame variable.
@@ -17,8 +17,16 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
-
+```
+import pandas as pd
+d=eval(input())
+df=pd.DataFrame(d)
+print(df)
+s=pd.Series(eval(input()))
+print(s.to_frame())
+```
 ## Output
+<img width="1235" height="866" alt="image" src="https://github.com/user-attachments/assets/fb6f8912-6951-41b4-bfb0-e0e0aab477e2" />
 
 ## Result
+Thus,the given Python Program has been executed successfully.
